@@ -1,0 +1,95 @@
+body {
+  font-family: 'Roboto Mono', 'sans-serif';
+  text-align:center;
+  background-image: url('dia-04-aluraflix-e-filmes.png');
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  align-content: center;
+  text-align: center;
+  justify-self: center;
+}
+
+.container {
+ 
+  text-align: center;
+  padding: 20px;
+  
+}
+
+.container-app {
+  text-align: center;
+  color: whitesmoke;
+  border: 2px solid whitesmoke;
+  border-radius: 5px;
+  background-color: #353940;
+  width: 45%;
+  margin-left: 30%; 
+  margin-right: 30%;
+  margin-top: 20px;
+  padding: 10px;
+  height: 480px;
+    
+}
+
+.container-lista-filmes {
+  padding: 6px;  
+}
+#lista-filmes {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  float: top;
+  color: white;
+  text-decoration: none;
+  padding-top: 18px;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#filme {
+  padding: 8px;
+  /*width: 15%;*/
+  text-align: center;
+  display: grid;
+  grid-template-rows: auto auto;  
+
+}
+
+#filme > img{
+	text-align: center;
+	justify-self: center;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+  align-content: center;
+  text-align: center;
+  justify-self: center;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+  align-content: center;
+  text-align: center;
+  justify-self: center;
+}
+
+.page-logo {
+  width: 200px;
+  
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right:10px;
+}
+
+body > img {
+  margin: 0 10px;
+}
